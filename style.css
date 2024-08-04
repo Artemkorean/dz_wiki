@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    background-color: lightgrey;
+    width: 1040px;
+    height: auto;
+    border:1px solid purple;
+    /* text-align: center; */
+    margin: 0px 100px;
+    padding: 5px 15px;
+}
+
+.linklist {
+    border: 2px solid grey;
+    list-style-position: inside;
+    margin: 40px 0px;
+    padding: 10px;
+    text-align: start;
+    width: 200px;
+}
+
+header{
+    text-align: start;
+    /* text-decoration: underline; */
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h4{
+    border-top: 2px solid grey;
+    margin-bottom: 20px;
+}
