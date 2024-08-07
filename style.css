@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 .container{
     background-color: lightgrey;
     width: 1040px;
@@ -20,9 +18,9 @@
     border: 2px solid grey;
     list-style-position: inside;
     margin: 40px 0px;
-    padding: 10px;
+    padding: 0px;
     text-align: start;
-    width: 200px;
+    width: 400px;
 }
 
 
@@ -53,9 +51,29 @@ h4{
 
 h3{
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 20px ;
+    padding-top: 20px;
 }
 
 h2{
     font-weight: 100;
+    padding-top: 20px;
+}
+ 
+ul{
+    padding: 20px 0 20px 50px;
+    color:rgb(95, 77, 110) ;
+}
+
+ol{
+    padding: 20px 0 20px 50px;
+    color: rgb(95, 77, 110); 
+}
+
+.secondlist {
+    color: rgb(95, 77, 110); 
+}
+
+.innerlist{
+    color:rgb(95, 77, 110);
 }
