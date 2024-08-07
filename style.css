@@ -13,7 +13,7 @@
     border:1px solid purple;
     /* text-align: center; */
     margin: 0px 100px;
-    padding: 5px 15px;
+    padding: 20px 15px;
 }
 
 .linklist {
@@ -25,6 +25,12 @@
     width: 200px;
 }
 
+
+.heading{
+    border-bottom: 2px solid grey;
+    padding:20px 0 20px;
+}
+
 header{
     text-align: start;
     /* text-decoration: underline; */
@@ -32,7 +38,24 @@ header{
     margin-bottom: 20px;
 }
 
-h4{
+h5{
     border-top: 2px solid grey;
     margin-bottom: 20px;
+}
+
+h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: medium;
+    color: rgb(95, 77, 110);
+    font-weight: 100;
+}
+
+h3{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h2{
+    font-weight: 100;
 }
